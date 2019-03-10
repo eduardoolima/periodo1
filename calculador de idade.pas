@@ -7,7 +7,7 @@ var AN,{ano de nascimento}
 		IDD{idade em dias}
 		 :integer;
 Begin
-	writeln('                                Calculador de idade                                ');             
+	writeln('Calculador de idade');             
 	writeln;
 	writeln('Por favor, digite o ano de nascimento');
 	readln(AN);
