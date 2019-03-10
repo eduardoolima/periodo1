@@ -18,12 +18,12 @@ Begin
 	IDM:= IDA*12;
 	IDS:= IDA*56;
 	IDD:= IDS*7;
-	writeln('Idade em anos:....',IDA);
+	writeln('Idade em anos:----',IDA);
 	writeln;
-	writeln('idade em meses:...',IDM);
+	writeln('idade em meses:---',IDM);
 	writeln;
-	writeln('idade em semanas:.',IDS);
+	writeln('idade em semanas:-',IDS);
 	writeln;
-	writeln('dade em dias:.....',IDD);
+	writeln('dade em dias:-----',IDD);
 	readln;	  
 End.
