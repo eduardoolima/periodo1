@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript">
+	function calcular(x1,x2,y1,y2)
+			var resultado = Math.pow(x2 - x1,2) +  Math.pow(y2-y1,2);
+		document.write("A distancia é: ", resultado.toFixed(4));
+</script>
+</head>
+<body>
+		<body>
+	<form>
+		<p>Forneça o x1</p>
+		<input type= "number" id= "x1">
+		<br>
+		<p>Forneça o x2</p>
+		<input type= "number" id= "x2">
+		<br>
+		<p>Forneça o y1</p>
+		<input type= "number" id= "y1">
+		<br>
+		<p>Forneça o y2</p>
+		<input type= "number" id= "y2">
+		<br>
+		<input type= "button" value="calcular" onclick="calcular(x1.value,x2.value,y1.value,y2.value);">
+	</form>
+
+	
+
+</body>
+</html>
