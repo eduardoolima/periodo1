@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<form>
+		<p>Forneça o raio</p>
+		<input type= "number" id= "raio">
+		<br>
+		<input type= "button" value="calcular" onclick="calcular(raio.value);">
+	</form>
+<script type="text/javascript">
+	function calcular(raio)
+	{		
+		var volume = (4/3.0) * 3.14159 * Math.pow(raio,3);
+		document.write("O volume da esfera é: " + volume.toFixed(3));
+
+	}
+	
+</script>	
+	
+</body>
+</html>
