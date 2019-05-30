@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		function calcular(en,ia,idd,im)
+		{
+			var ia = Math.round(en / 365);
+			var im = en % 365 / 30;
+			var idd = en % 365 % 30;
+			document.write("Idade em dias ", idd);
+			document.write("Idade em meses", im);
+			document.write("Idade em anos", ia); 
+		}
+	</script>
+</head>
+<body>
+	<form>
+		<p>Forneça a idade em dias</p>
+		<input type= "number" id= "en">
+		<br>
+		<input type= "button" value="calcular" onclick="calcular(ia.value,en.value,im.value,idd.value);">  
+	</form>
+</body>
+</html>
+
